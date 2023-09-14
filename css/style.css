@@ -9,14 +9,14 @@
 }
 
 :root {
-    --cor-fundo: #66b9e9;
+    --cinza: #536976;
     --azul-escuro: #292e49;
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;;
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background: linear-gradient(to right, #536976, #292e49);
     font: normal 23px var(--font-padrao);
 }
 
@@ -87,7 +87,7 @@ li > a {
 }
 
 .btn-cadastrar:hover {
-    color: var(--cor-fundo);
+    color: var(--azul-escuro);
     background-color: white;
 }
 
@@ -95,10 +95,6 @@ main {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 117px);
-}
-
-article {
-    display: flex;
 }
 
 footer {
