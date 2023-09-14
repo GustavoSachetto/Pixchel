@@ -9,14 +9,14 @@
 }
 
 :root {
-    --cinza: #536976;
+    --cor-fundo: #66b9e9;
     --azul-escuro: #292e49;
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;;
 }
 
 body {
-    background-color: var(--cinza);
+    background-color: var(--cor-fundo);
     font: normal 23px var(--font-padrao);
 }
 
@@ -28,7 +28,7 @@ header, nav, ul {
 }
 
 header {
-    margin: 20px 200px 10px 200px;
+    margin: 20px 10% 10px 10%;
 }
 
 h1 {
@@ -45,11 +45,11 @@ ul {
 }
 
 .menu-cadastro {
-    padding-left: 60px;
+    margin-left: 180px;
 }
 
 li {
-    padding: 12px 23px;
+    padding: 12px 18px;
 }
 
 li > a {
@@ -87,7 +87,7 @@ li > a {
 }
 
 .btn-cadastrar:hover {
-    color: var(--cinza);
+    color: var(--cor-fundo);
     background-color: white;
 }
 
