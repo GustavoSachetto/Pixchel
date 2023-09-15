@@ -10,13 +10,14 @@
 
 :root {
     --cinza: #536976;
+    --cinza-escuro: #161616;
     --azul-escuro: #292e49;
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;;
 }
 
 body {
-    background: linear-gradient(to right, #536976, #292e49);
+    background: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     font: normal 23px var(--font-padrao);
 }
 
@@ -100,6 +101,10 @@ h2 {
     color: white;
 }
 
+article a{
+    text-decoration: none;
+}
+
 article.exibicao {
     display: flex;
     flex-direction: row;
@@ -109,30 +114,36 @@ article.exibicao {
 #card-grades {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-cogumelo, .card-estrela, .card-sorvete{
-    margin: 10px;
+    margin: 15px;
     padding: 50px 10px;
     border-radius: 3px;
     background-color: white;
 }
 
 .card-cogumelo p, .card-estrela p, .card-sorvete p{
-    background-color: gray;
+    font: normal 22px var(--font-destaque);
+    color: white;
+    margin: 0 -10px -60px -10px;
+    border-radius: 0  0 3px 3px;
     padding: 10px;
-    margin: 0 - 10px 0 -10px;
+    background-color: var(--cinza-escuro);
+    text-align: center;
 }
 
 .img-card{
-    width: 200px;
+    width: 190px;
+    margin-bottom: 30px;
 }
 
 footer {
     padding: 10px;
     color: white;
     text-align: center;
-    background-color: black;
+    background-color: var(--cinza-escuro);
     font: normal 20px var(--font-padrao);
 }
 
