@@ -97,7 +97,7 @@ main {
 }
 
 h2 {
-    font: bold 62px var(--font-destaque);
+    font: bold 70px var(--font-destaque);
     color: white;
 }
 
@@ -108,7 +108,28 @@ article a{
 article.exibicao {
     display: flex;
     flex-direction: row;
+    margin: 80px 5% 0 5%;
+}
+
+section.pixel-grade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
+}
+
+.pixel-grade p {
+    color: white;
+    margin-top: 30px;
+    font-size: 26px;
+}
+
+.pixel-grade a{
+    color: white;
+    margin-top: 30px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    background-color: orange;
 }
 
 #card-grades {
@@ -117,26 +138,51 @@ article.exibicao {
     justify-content: center;
 }
 
-.card-cogumelo, .card-estrela, .card-sorvete{
+.cards, .card-navegar{
     margin: 15px;
     padding: 50px 10px;
     border-radius: 3px;
     background-color: white;
+    transition: 400ms ease-in-out;
+    width: 200px;
 }
 
-.card-cogumelo p, .card-estrela p, .card-sorvete p{
+.cards p {
     font: normal 22px var(--font-destaque);
     color: white;
     margin: 0 -10px -60px -10px;
     border-radius: 0  0 3px 3px;
-    padding: 10px;
-    background-color: var(--cinza-escuro);
+    padding: 6px 10px;
     text-align: center;
+    background-color: var(--cinza-escuro);
 }
 
-.img-card{
+.cards:hover{
+    background-color: var(--cinza-escuro);    
+}
+
+.card-navegar {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: var(--cinza-escuro);
+}
+
+.card-navegar:hover h3{
+    color: whitesmoke;
+}
+
+h3 {
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    transition: 200ms ease-in-out;
+    font: bold 25px var(--font-padrao);
+}
+
+.img-card {
     width: 190px;
-    margin-bottom: 30px;
+    margin: 0 0 30px 5px;
 }
 
 footer {
@@ -152,6 +198,6 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     border-bottom: 1px solid white;
 }
