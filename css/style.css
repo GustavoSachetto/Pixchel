@@ -36,10 +36,6 @@ h1 {
     color: white;
 }
 
-h2 {
-    font: bold 62px var(--font-destaque);
-}
-
 ul {
     list-style: none;
 }
@@ -57,7 +53,7 @@ li > a {
 }
 
 .menu-cadastro {
-    margin-left: 120px;
+    margin-left: 130px;
 }
 
 .menu a::after{
@@ -80,7 +76,7 @@ li > a {
     margin-left: 8px;
 }
 
-.btn-cadastrar{
+.btn-cadastrar {
     border: 2px solid white;
     padding: 12px 30px;
     border-radius: 5px;
@@ -96,6 +92,40 @@ main {
     display: flex;
     flex-direction: column;
     min-height: calc(100vh - 117px);
+    margin: 20px;
+}
+
+h2 {
+    font: bold 62px var(--font-destaque);
+    color: white;
+}
+
+article.exibicao {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+#card-grades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-cogumelo, .card-estrela, .card-sorvete{
+    margin: 10px;
+    padding: 50px 10px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.card-cogumelo p, .card-estrela p, .card-sorvete p{
+    background-color: gray;
+    padding: 10px;
+    margin: 0 - 10px 0 -10px;
+}
+
+.img-card{
+    width: 200px;
 }
 
 footer {
