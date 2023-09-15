@@ -28,7 +28,7 @@ header, nav, ul {
 }
 
 header {
-    margin: 20px 10% 10px 10%;
+    margin: 20px 7% 10px 7%;
 }
 
 h1 {
@@ -44,10 +44,6 @@ ul {
     list-style: none;
 }
 
-.menu-cadastro {
-    margin-left: 180px;
-}
-
 li {
     padding: 12px 18px;
 }
@@ -55,8 +51,13 @@ li {
 li > a {
     font: bold 20px var(--font-padrao);
     text-decoration: none;
+    white-space: nowrap;
     position: relative;
     color: white;
+}
+
+.menu-cadastro {
+    margin-left: 120px;
 }
 
 .menu a::after{
