@@ -18,7 +18,7 @@
                     <li><a href="#">Serviços</a></li>
                 </ul>
                 <ul class="menu-cadastro">
-                    <li><a href="#" class="btn-entrar">Entrar<span>&#9660;</span></a></li>
+                    <li><a href="#" class="btn-entrar acesso">Entrar<span>&#9660;</span></a></li>
                     <li><a href="#" class="btn-cadastrar">Cadastrar-se</a></li>
                 </ul>
             </nav>
@@ -74,9 +74,12 @@
         </footer>
         <script>
             const header = document.querySelector('header');
-            const h1 = document.querySelector('h1');
             document.addEventListener('scroll',()=>{
-                header.classList.toggle('.header-scroll');
+                if (scrollY > 30) {
+                    header.classList.add('header-scroll');
+                } else {
+                    header.classList.remove('header-scroll');
+                }
             });
         </script>
     </body>
