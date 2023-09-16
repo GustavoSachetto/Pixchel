@@ -127,7 +127,7 @@ section.pixel-grade {
     font-size: 26px;
 }
 
-.pixel-grade a{
+.pixel-grade .btn-detalhes {
     color: white;
     margin-top: 30px;
     padding: 16px 40px;
@@ -138,12 +138,24 @@ section.pixel-grade {
     transition: 300ms ease-in-out;
 }
 
-.pixel-grade a:hover{
+.pixel-grade .btn-detalhes:hover {
     transform: scale(1.05);
     box-shadow: 1px 5px 10px #0000001a;
 }
 
-#card-grades {
+.block-redes {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.img-rede {
+    width: 35px;
+    margin-right: 15px;
+    filter: grayscale(0%);
+}
+
+.card-grades {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
