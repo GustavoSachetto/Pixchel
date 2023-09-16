@@ -157,7 +157,11 @@ section.pixel-grade {
 .img-rede {
     width: 35px;
     margin-right: 15px;
-    filter: grayscale(0%);
+    transition: 400ms ease-in-out;
+}
+
+.img-rede:hover{
+    transform: scale(1.1);
 }
 
 .card-grades {
