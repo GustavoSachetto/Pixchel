@@ -56,10 +56,10 @@ header, nav, ul {
 }
 
 header {
-    padding: 20px 7% 10px 7%;
     position: fixed;
     width: 87vw;
     max-width: 100vw;
+    padding: 20px 7% 10px 7%;
 }
 
 h1 {
@@ -139,7 +139,7 @@ article a{
 article.exibicao {
     display: flex;
     flex-direction: row;
-    margin: 80px 6% 0 6%;
+    margin: 130px 6% 0 6%;
 }
 
 section.pixel-grade {
