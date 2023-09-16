@@ -63,9 +63,21 @@
                     </div>
                 </aside>
             </article>
+            <article class="sobre">
+                <section>
+                    
+                </section>
+            </article>
         </main>
         <footer>
             <p>Desenvolvido por <a href="#"><strong>Gustavo Sachetto</strong></a></p>
         </footer>
+        <script>
+            const header = document.querySelector('header');
+            const h1 = document.querySelector('h1');
+            document.addEventListener('scroll',()=>{
+                header.classList.toggle('.header-scroll');
+            });
+        </script>
     </body>
 </html>

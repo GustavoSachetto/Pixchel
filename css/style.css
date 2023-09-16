@@ -60,6 +60,12 @@ header {
     width: 87vw;
     max-width: 100vw;
     padding: 20px 7% 10px 7%;
+    transition: 150ms linear;
+}
+
+.header-scroll{
+    padding: 10px 7% 10px 7%;
+    background-color: #ffffffee;
 }
 
 h1 {
@@ -191,6 +197,7 @@ section.pixel-grade {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .cards, .card-navegar{
@@ -239,6 +246,11 @@ h3 {
 .img-card {
     width: 190px;
     margin: 0 0 30px 5px;
+}
+
+article.sobre{
+    height: 800px;
+    background-color: whitesmoke;
 }
 
 footer {
