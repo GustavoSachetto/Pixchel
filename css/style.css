@@ -124,7 +124,7 @@ li > a {
 main {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 117px);
+    min-height: calc(100vh - 40px);
 }
 
 h2 {
