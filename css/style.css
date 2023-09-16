@@ -19,6 +19,26 @@
     --sombra: 1px 5px 10px #00000033;
 }
 
+::-webkit-scrollbar {
+    background-color: var(--azul-escuro);
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: gray;
+    border: 5px solid var(--azul-escuro);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: orange;
+    border: 3px solid var(--azul-escuro);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+}
+
 ::selection {
     background-color: #ffa6005d;
 }
