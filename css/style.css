@@ -56,7 +56,10 @@ header, nav, ul {
 }
 
 header {
-    margin: 20px 7% 10px 7%;
+    padding: 20px 7% 10px 7%;
+    position: fixed;
+    width: 87vw;
+    max-width: 100vw;
 }
 
 h1 {
@@ -81,10 +84,6 @@ li > a {
     color: white;
 }
 
-.menu-cadastro {
-    margin-left: 130px;
-}
-
 .menu a::after{
     content: " ";
     width: 0%;
@@ -98,6 +97,10 @@ li > a {
 
 .menu a:hover::after{
     width: 100%;
+}
+
+.menu-cadastro {
+    margin-left: 180px;
 }
 
 .btn-entrar > span {
