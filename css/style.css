@@ -7,7 +7,9 @@
 :root {
     --cinza: #536976;
     --cinza-escuro: #161616;
+    --azul: #5C80BC;
     --azul-escuro: #292e49;
+    --roxo-escuro: #0F0326;
     
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;
@@ -211,14 +213,14 @@ section.pixel-grade {
     transform: scale(1.1);
 }
 
-.card-grades {
+aside.card-grades {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-.cards, .card-navegar {
+.card, .card-navegar {
     margin: 15px;
     padding: 50px 10px;
     border-radius: 3px;
@@ -228,7 +230,7 @@ section.pixel-grade {
     height: 215px;
 }
 
-.cards p {
+.card p {
     font: normal 22px var(--font-destaque);
     color: white;
     margin: 0 -10px -60px -10px;
@@ -238,7 +240,7 @@ section.pixel-grade {
     background-color: var(--cinza-escuro);
 }
 
-.cards:hover {
+.card:hover {
     background-color: var(--cinza-escuro);    
 }
 
@@ -268,7 +270,63 @@ h3 {
 
 article.confianca {
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 130px 6% 0 6%;
     background-color: whitesmoke;
+}
+
+section.confianca-grade h2{
+    color: var(--roxo-escuro);
+    font-size: 55px;
+}
+
+.confianca-grade h3{
+    text-align: justify;
+    color: orange;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.confianca-grade p{
+    font-size: 25px;
+}
+
+aside.cliente {
+    margin: 40px;
+}
+
+.card-cliente {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--azul);
+    box-shadow: 3px 3px 30px var(--azul);
+}
+
+.card-cliente h3{
+    color: white;
+    line-height: 35px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.card-cliente mark{
+    background: transparent;
+    color: orange;
+}
+
+.card-cliente p{
+    color: #f5f5f5ce;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.img-cliente {
+    position: absolute;
+    margin: -150px 0 0 -50px;
+    width: 150px;
+    border-radius: 40%;
+    background-color: var(--azul);
 }
 
 footer {
