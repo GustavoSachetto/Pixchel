@@ -16,6 +16,7 @@
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;
     
+    --brilho: #ffffffee;
     --sombra: 1px 5px 10px #00000033;
 }
 
@@ -63,9 +64,24 @@ header {
     transition: 150ms linear;
 }
 
-.header-scroll {
+header.scroll {
     padding: 10px 7% 10px 7%;
-    background-color: #ffffffee;
+    background-color: var(--brilho);
+}
+
+header.scroll a, header.scroll h1 {
+    color: var(--cinza-escuro);
+}
+
+header.scroll .btn-cadastrar {
+    color: white;
+    background-color: var(--cinza-escuro);
+
+}
+header.scroll .btn-cadastrar:hover {
+    color: var(--cinza-escuro);
+    background-color: transparent;
+    border: 2px solid var(--cinza-escuro);
 }
 
 h1 {

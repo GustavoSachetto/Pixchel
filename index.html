@@ -6,19 +6,20 @@
         <title>Pixchel</title>
 
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
     </head>
     <body>
         <header>
             <h1>Pixchel</h1>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#" id="link-1">Produtos</a></li>
+                    <li><a href="#" id="link-2">Sobre</a></li>
+                    <li><a href="#" id="link-3">Contato</a></li>
+                    <li><a href="#" id="link-4">Serviços</a></li>
                 </ul>
                 <ul class="menu-cadastro">
-                    <li><a href="#" class="btn-entrar acesso">Entrar<span>&#9660;</span></a></li>
+                    <li><a href="#" class="btn-entrar">Entrar<span>&#9660;</span></a></li>
                     <li><a href="#" class="btn-cadastrar">Cadastrar-se</a></li>
                 </ul>
             </nav>
@@ -72,15 +73,5 @@
         <footer>
             <p>Desenvolvido por <a href="#"><strong>Gustavo Sachetto</strong></a></p>
         </footer>
-        <script>
-            const header = document.querySelector('header');
-            document.addEventListener('scroll',()=>{
-                if (scrollY > 30) {
-                    header.classList.add('header-scroll');
-                } else {
-                    header.classList.remove('header-scroll');
-                }
-            });
-        </script>
     </body>
 </html>
