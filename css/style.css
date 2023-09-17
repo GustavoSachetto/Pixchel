@@ -326,7 +326,7 @@ aside.cliente {
     margin: -150px 0 0 -50px;
     width: 150px;
     border-radius: 40%;
-    background-color: var(--azul);
+    background-color: var(--azul-escuro);
 }
 
 footer {
