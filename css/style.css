@@ -17,7 +17,6 @@
 }
 
 ::-webkit-scrollbar {
-    background-color: var(--azul-escuro);
     width: 13px;
 }
 
@@ -267,7 +266,7 @@ h3 {
     margin: 0 0 30px 5px;
 }
 
-article.sobre {
+article.confianca {
     height: 800px;
     background-color: whitesmoke;
 }
