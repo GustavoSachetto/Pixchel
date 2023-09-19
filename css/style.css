@@ -340,7 +340,11 @@ article.produtos h2{
     background-color: white;
     padding: 10px;
     border-radius: 25px;
-    width: 250px;
+    width: 245px;
+}
+
+.card-produto img {
+    filter: drop-shadow(var(--sombra));
 }
 
 img[src="img/sorvete.png"]{
@@ -360,6 +364,7 @@ img[src="img/sorvete.png"]{
     border-radius: 25px;
     color: white;
 }
+
 
 footer {
     padding: 10px;
