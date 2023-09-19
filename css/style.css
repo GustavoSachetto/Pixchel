@@ -276,7 +276,7 @@ h3 {
 article.confianca {
     display: flex;
     flex-direction: row;
-    padding: 130px 6% 5% 6%;
+    padding: 130px 6% 130px 6%;
     background-color: whitesmoke;
 }
 
@@ -314,6 +314,51 @@ aside.desenhando img {
 
 article.confianca:hover aside.desenhando {
     filter: sepia(0);
+}
+
+article.produtos {
+    background-color: orange;
+}
+
+article.produtos h2{
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.card-produtos-grade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+img[src="img/sorvete.png"]{
+    margin-top: 10px;
+}
+
+.card-produto p {
+    margin: 7px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.card-produto a {
+    background-color: var(--azul);
+    padding: 10px 26px;
+    border-radius: 25px;
+    color: white;
 }
 
 footer {
