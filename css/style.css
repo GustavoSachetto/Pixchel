@@ -320,14 +320,18 @@ article.confianca:hover aside.desenhando {
 
 article.produtos {
     background-color: orange;
-    height: 800px;
 }
 
 article.produtos h2{
     text-shadow: var(--sombra);
-    text-align: center;
     font-size: 50px;
     margin: 70px 0 70px 0;
+}
+
+section.produtos-grade {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card-produtos-grade {
@@ -335,6 +339,7 @@ article.produtos h2{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .card-produtos-grade:hover > :not(:hover){
@@ -348,12 +353,12 @@ article.produtos h2{
     align-items: center;
     background-color: white;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 6px;
     width: 245px;
     height: 380px;
-    box-shadow: 2px 2px 0 black;
     cursor: pointer;
     transition: .35s;
+    box-shadow: var(--sombra);
 }
 
 .card-produto img {
@@ -361,7 +366,7 @@ article.produtos h2{
     background-color: var(--cinza-escuro);
     padding: 10px 58px;
     margin: -10px -55px;
-    border-radius: 25px 25px 0 0;
+    border-radius: 6px 6px 0 0;
     filter: drop-shadow(var(--sombra));
 }
 
