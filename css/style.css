@@ -51,6 +51,7 @@
 body {
     background: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     font: normal 23px var(--font-padrao);
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -298,7 +299,7 @@ section.confianca-grade h2{
 }
 
 aside.desenhando {
-    margin:  100px 0 0 50px;
+    margin: 100px 0 0 50px;
     min-width: 50%;
     transition: 1s;
     filter: sepia(30%);
@@ -323,6 +324,7 @@ article.produtos {
 }
 
 article.produtos h2{
+    text-shadow: var(--sombra);
     text-align: center;
     font-size: 50px;
     margin: 100px 0 60px 0;
@@ -356,7 +358,7 @@ article.produtos h2{
 
 .card-produto img {
     width: 149px;
-    background-color: var(--azul);
+    background-color: var(--cinza-escuro);
     padding: 10px 58px;
     margin: -10px -55px;
     border-radius: 25px 25px 0 0;
@@ -375,7 +377,7 @@ article.produtos h2{
 }
 
 .card-produto a {
-    background-color: var(--azul);
+    background-color: var(--cinza-escuro);
     padding: 10px 26px;
     border-radius: 25px;
     color: white;
