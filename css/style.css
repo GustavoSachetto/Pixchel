@@ -17,6 +17,7 @@
     
     --brilho: #fffffff5;
     --sombra: 1px 5px 10px #00000033;
+    --sombra-2: 2px 2px 10px #0000007a;
 }
 
 ::-webkit-scrollbar {
@@ -323,7 +324,7 @@ article.produtos {
 }
 
 article.produtos h2{
-    text-shadow: var(--sombra);
+    text-shadow: var(--sombra-2);
     font-size: 50px;
     margin: 70px 0 70px 0;
 }
