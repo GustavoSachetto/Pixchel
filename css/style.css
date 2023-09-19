@@ -297,7 +297,7 @@ section.confianca-grade h2{
 }
 
 aside.desenhando {
-    margin-left: 50px;
+    margin:  100px 0 0 50px;
     min-width: 50%;
     transition: 1s;
     filter: sepia(30%);
