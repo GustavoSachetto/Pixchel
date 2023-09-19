@@ -10,6 +10,7 @@
     --azul: #5C80BC;
     --azul-escuro: #292e49;
     --roxo-escuro: #0F0326;
+    --verde: #2cce4f;
     
     --font-padrao: 'Josefin Sans', sans-serif;
     --font-destaque: 'Volkhov', serif;
@@ -318,12 +319,13 @@ article.confianca:hover aside.desenhando {
 
 article.produtos {
     background-color: orange;
+    height: 800px;
 }
 
 article.produtos h2{
     text-align: center;
     font-size: 50px;
-    margin: 20px;
+    margin: 100px 0 60px 0;
 }
 
 .card-produtos-grade {
@@ -331,6 +333,11 @@ article.produtos h2{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.card-produtos-grade:hover > :not(:hover){
+    transform: scale(0.9);
+    opacity: 40%;
 }
 
 .card-produto {
@@ -341,14 +348,23 @@ article.produtos h2{
     padding: 10px;
     border-radius: 25px;
     width: 245px;
+    height: 380px;
+    box-shadow: 2px 2px 0 black;
+    cursor: pointer;
+    transition: .35s;
 }
 
 .card-produto img {
+    width: 149px;
+    background-color: var(--azul);
+    padding: 10px 58px;
+    margin: -10px -55px;
+    border-radius: 25px 25px 0 0;
     filter: drop-shadow(var(--sombra));
 }
 
-img[src="img/sorvete.png"]{
-    margin-top: 10px;
+.card-produto h3{
+    margin-top: 30px;
 }
 
 .card-produto p {
@@ -363,8 +379,13 @@ img[src="img/sorvete.png"]{
     padding: 10px 26px;
     border-radius: 25px;
     color: white;
+    margin-top: 20px;
+    transition: 300ms;
 }
 
+.card-produto a:hover{
+    background-color: var(--verde);
+}
 
 footer {
     padding: 10px;
