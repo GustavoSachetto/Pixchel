@@ -131,3 +131,18 @@ input[type="checkbox"] {
     transform: scale(1.05);
     box-shadow: 1px 5px 10px #0000001a;
 }
+
+.separacao {
+    text-align: center;
+    color: gray;
+}
+
+.separacao::after {
+    content: "";
+    background-color: gray;
+    width: 84%;
+    height: 2px;
+    bottom: 100px;
+    left: 50px;
+    position: absolute;
+}
