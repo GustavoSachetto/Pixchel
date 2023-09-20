@@ -395,6 +395,10 @@ section.produtos-grade {
     background-color: var(--verde);
 }
 
+article.sobre {
+    background-color: white;
+}
+
 footer {
     padding: 10px;
     color: white;
