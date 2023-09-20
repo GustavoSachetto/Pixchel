@@ -72,6 +72,7 @@ form > p{
 fieldset {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 input {
@@ -79,7 +80,15 @@ input {
     padding: 15px 20px;
     border: 2px solid gray;
     border-radius: 5px;
-    font: 300 20px var(--font-padrao);
+    font: 300 22px var(--font-padrao);
     color: gray;
     background: transparent;
+}
+
+.password-grade {
+    width: 100%;
+}
+
+.checkbox-grade {
+
 }
