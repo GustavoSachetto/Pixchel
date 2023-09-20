@@ -9,9 +9,4 @@ btn.addEventListener('click', function () {
         input.setAttribute('type', 'password');
         img.src = "../img/olho.svg";
     }
-    
-    const checkbox = document.querySelector('#checkbox');
-    if (checkbox.Checked == true) {
-        console.log("teste");
-    } 
 });
