@@ -89,10 +89,6 @@ input {
     background: transparent;
 }
 
-input:hover {
-    box-shadow: 2px 2px 15px var(--azul);
-}
-
 .btn-mostra-senha {
     position: absolute;
     padding: 9px;
