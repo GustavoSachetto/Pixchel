@@ -11,6 +11,7 @@
     --azul-escuro: #292e49;
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
+    --vermelho: #d85858;
 
     --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     
@@ -26,6 +27,19 @@ body {
     background: whitesmoke;
 }
 
+.btn-voltar {    
+    background-color: var(--vermelho);
+    border: 2px solid transparent;
+    padding: 12px 28px;
+    border-radius: 5px;
+    transition: 500ms ease-in-out;
+}
+
+.btn-voltar:hover {
+    border: 2px solid white;
+    background-color: var(--azul-escuro);
+}
+
 article.formulario {
     display: flex;
     flex-direction: column;
@@ -38,11 +52,34 @@ article form {
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 35%;
-    height: 650px;
+    width: 32%;
+    height: 550px;
     padding: 50px;
     border-radius: 10px;
-    top: 80px;
+    top: 120px;
     box-shadow: var(--sombra);
     background-color: whitesmoke;
+}
+
+article h2{
+    color: #373e5f;
+}
+
+form > p{
+    margin-top: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 15px 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font: 300 20px var(--font-padrao);
+    color: gray;
+    background: transparent;
 }
