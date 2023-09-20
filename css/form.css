@@ -61,7 +61,7 @@ article form {
     padding: 50px;
     border-radius: 10px;
     top: 120px;
-    box-shadow: var(--sombra);
+    box-shadow: var(--sombra-2);
     background-color: whitesmoke;
 }
 
