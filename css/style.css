@@ -323,7 +323,7 @@ article.confianca:hover aside.desenhando {
 }
 
 article.produtos {
-    background-color: orange;
+    background-color: var(--azul);
 }
 
 article.produtos h2{
