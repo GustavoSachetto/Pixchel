@@ -48,6 +48,10 @@ article.formulario {
     background: var(--gradiente-fundo);
 }
 
+article h2{
+    color: #373e5f;
+}
+
 article form {
     display: flex;
     flex-direction: column;
@@ -61,20 +65,11 @@ article form {
     background-color: whitesmoke;
 }
 
-article h2{
-    color: #373e5f;
-}
-
 form > p{
     margin-top: 20px;
 }
 
-fieldset {
-    display: flex;
-    flex-direction: column;
-}
-
-fieldset div {
+fieldset, fieldset div {
     display: flex;
     flex-direction: column;
 }
@@ -100,4 +95,22 @@ input {
 
 .btn-mostra-senha img{
     width: 36px;
+}
+
+.btn-login {
+    color: white;
+    color: white;
+    margin-top: 30px;
+    padding: 16px 40px;
+    border-radius: 10px;
+    background-color: var(--verde);
+    box-shadow: var(--sombra);
+    cursor: pointer;
+    font: bold 26px var(--font-padrao);
+    transition: 300ms ease-in-out;
+}
+
+.btn-login:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 5px 10px #0000001a;
 }
