@@ -93,8 +93,24 @@ input {
     cursor: pointer;
 }
 
-.btn-mostra-senha img{
+.btn-mostra-senha img {
     width: 36px;
+}
+
+.checkbox-grade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-grade p{
+    font-size: 18px;
+    margin-left: 15px;
 }
 
 .btn-login {
