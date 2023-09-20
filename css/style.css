@@ -11,6 +11,8 @@
     --azul-escuro: #292e49;
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
+
+    --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     
     --font-padrao: 'Josefin Sans', Arial, sans-serif;
     --font-destaque: 'Volkhov', Arial, sans-serif;
@@ -50,7 +52,7 @@
 }
 
 body {
-    background: linear-gradient(to right, var(--cinza), var(--azul-escuro));
+    background: var(--gradiente-fundo);
     font: normal 23px var(--font-padrao);
     overflow-x: hidden;
     scroll-behavior: smooth;
