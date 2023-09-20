@@ -1,9 +1,12 @@
-let btn = document.querySelector('#btn-mostra-senha');
+const btn = document.querySelector('#btn-mostra-senha');
 btn.addEventListener('click', function () {
-    let input = document.querySelector('#password');
+    const input = document.querySelector('#password');
+    const img = document.querySelector('#img-olho');
     if(input.getAttribute('type') == 'password') {
         input.setAttribute('type', 'text');
+        img.src = "../img/olho-aberto.svg";
     } else {
         input.setAttribute('type', 'password');
+        img.src = "../img/olho.svg";
     }
 });
