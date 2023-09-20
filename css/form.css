@@ -52,7 +52,7 @@ article form {
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 32%;
+    width: 550px;
     height: 550px;
     padding: 50px;
     border-radius: 10px;
@@ -72,7 +72,11 @@ form > p{
 fieldset {
     display: flex;
     flex-direction: column;
-    width: 100%;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
 }
 
 input {
@@ -85,10 +89,19 @@ input {
     background: transparent;
 }
 
-.password-grade {
-    width: 100%;
+input:hover {
+    box-shadow: 2px 2px 15px var(--azul);
 }
 
-.checkbox-grade {
+.btn-mostra-senha {
+    position: absolute;
+    padding: 9px;
+    border-radius: 0 5px 5px 0;
+    background: gray;
+    margin: 10px 0 0 498px;
+    cursor: pointer;
+}
 
+.btn-mostra-senha img{
+    width: 36px;
 }

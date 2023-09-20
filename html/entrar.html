@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/form.css">
         <script src="../js/script.js" defer></script>
-    </head>
     <body>
         <header>
             <h1>Pixchel</h1>
@@ -24,17 +23,19 @@
                     <h2>Entrar</h2>
                     <p>Lembrou da gente? logue agora para não perder mais tempo. <strong>Bem vindo de volta.</strong></p>
                     <fieldset>
-                        <input type="email" name="email" placeholder="Endereço email" required>
+                        <div class="email-grade">
+                            <input type="email" name="email" placeholder="Endereço email" required>
+                        </div>
                         <div class="password-grade">
                             <input type="password" name="password" placeholder="Senha" required>
-                            <button><svg class="lnr olhodireito"><use xlink:href="#olhodireito"></use></svg></button>
+                            <button type="button" id="btn-mostra-senha" class="btn-mostra-senha"><img src="../img/olho.svg" alt="Olho"></button>
                         </div>
                         <div class="checkbox-grade">
                             <input type="checkbox" name="checkbox">
                             <p>Não deslogar nunca mais</p>
                         </div>
-                        <button type="submit">Fazer login</button>
                     </fieldset>
+                    <button type="submit">Fazer login</button>
                 </form>
             </article>
         </main>
