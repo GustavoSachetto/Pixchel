@@ -11,6 +11,8 @@
     --azul-escuro: #292e49;
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
+
+    --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     
     --font-padrao: 'Josefin Sans', Arial, sans-serif;
     --font-destaque: 'Volkhov', Arial, sans-serif;
@@ -22,4 +24,25 @@
 
 body {
     background: whitesmoke;
+}
+
+article.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    background: var(--gradiente-fundo);
+}
+
+article form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 35%;
+    height: 650px;
+    padding: 50px;
+    border-radius: 10px;
+    top: 80px;
+    box-shadow: var(--sombra);
+    background-color: whitesmoke;
 }
