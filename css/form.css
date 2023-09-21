@@ -29,11 +29,14 @@ body {
 }
 
 .btn-voltar {    
+    font: bold 20px var(--font-padrao);
+    color: white;
     background-color: var(--vermelho);
     border: 2px solid transparent;
     padding: 12px 28px;
     border-radius: 5px;
     transition: 500ms ease-in-out;
+    cursor: pointer;
 }
 
 .btn-voltar:hover {
@@ -110,9 +113,11 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.checkbox-grade p{
+.checkbox-grade label{
     font-size: 18px;
     margin-left: 15px;
+    user-select: none;
+    cursor: pointer;
 }
 
 .btn-login {

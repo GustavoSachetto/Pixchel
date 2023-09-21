@@ -14,7 +14,7 @@
             <h1>Pixchel</h1>
             <nav>
                 <ul>
-                    <li><a href="../index.html" class="btn-voltar">Continuar sem logar</a></li>
+                    <li><button onclick="history.go(-1)" class="btn-voltar">Continuar sem logar</button></li>
                 </ul>
             </nav>
         </header>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="checkbox-grade">
                             <input type="checkbox" id="checkbox" name="checkbox" required>
-                            <p>Não deslogar nunca mais</p>
+                            <label for="checkbox">Não deslogar nunca mais</label>
                         </div>
                     </fieldset>
                     <button type="submit" class="btn-login">Fazer login na conta →</button>
