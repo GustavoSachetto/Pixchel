@@ -9,6 +9,7 @@
     --cinza-escuro: #161616;
     --azul: #5C80BC;
     --azul-escuro: #292e49;
+    --cinza-azulado: #373e5f;
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
     --vermelho: #d85858;
@@ -49,7 +50,7 @@ article.formulario {
 }
 
 article h2{
-    color: #373e5f;
+    color: var(--cinza-azulado);
 }
 
 article form {
