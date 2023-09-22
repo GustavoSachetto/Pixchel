@@ -13,6 +13,7 @@
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
     --vermelho: #d85858;
+    --vermelho-alerta: #ec1010;
 
     --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     
@@ -76,6 +77,10 @@ form > p{
 fieldset, fieldset div {
     display: flex;
     flex-direction: column;
+}
+
+fieldset span{
+    color: var(--vermelho-alerta);
 }
 
 input {

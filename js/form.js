@@ -10,3 +10,4 @@ btn.addEventListener('click', function () {
         img.src = "../img/olho.svg";
     }
 });
+
