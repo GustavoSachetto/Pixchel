@@ -11,3 +11,6 @@ btn.addEventListener('click', function () {
     }
 });
 
+function input-error() {
+    const
+}

@@ -13,7 +13,7 @@
     --roxo-escuro: #0F0326;
     --verde: #2bb94a;
     --vermelho: #d85858;
-    --vermelho-alerta: #ec1010;
+    --vermelho-alerta: #ec1010c9;
 
     --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
     
@@ -81,6 +81,9 @@ fieldset, fieldset div {
 
 fieldset span{
     color: var(--vermelho-alerta);
+    font-size: 18px;
+    margin: 0 0 6px 0;
+    display: none;
 }
 
 input {
