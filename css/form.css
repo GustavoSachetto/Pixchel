@@ -16,10 +16,10 @@
     --vermelho-alerta: #ec1010c9;
 
     --gradiente-fundo: linear-gradient(to right, var(--cinza), var(--azul-escuro));
-    
+
     --font-padrao: 'Josefin Sans', Arial, sans-serif;
     --font-destaque: 'Volkhov', Arial, sans-serif;
-    
+
     --brilho: #fffffff5;
     --sombra: 1px 5px 10px #00000033;
     --sombra-2: 2px 2px 10px #0000007a;
@@ -29,7 +29,7 @@ body {
     background: whitesmoke;
 }
 
-.btn-voltar {    
+.btn-voltar {
     font: bold 20px var(--font-padrao);
     color: white;
     background-color: var(--vermelho);
@@ -53,7 +53,7 @@ article.formulario {
     background: var(--gradiente-fundo);
 }
 
-article h2{
+article h2 {
     color: var(--cinza-azulado);
 }
 
@@ -62,7 +62,6 @@ article form {
     flex-direction: column;
     position: absolute;
     width: 550px;
-    height: 550px;
     padding: 50px;
     border-radius: 10px;
     top: 120px;
@@ -70,20 +69,33 @@ article form {
     background-color: whitesmoke;
 }
 
-form > p{
+form>p {
     margin-top: 20px;
 }
+
 
 fieldset, fieldset div {
     display: flex;
     flex-direction: column;
 }
 
-fieldset span{
+fieldset span {
     color: var(--vermelho-alerta);
     font-size: 18px;
     margin: 0 0 6px 0;
     display: none;
+}
+
+form, input, span {
+    transition: 300ms;
+}
+
+input.error {
+    border-color: var(--vermelho-alerta);
+}
+
+span.error {
+    display: inline-block;
 }
 
 input {
@@ -121,7 +133,7 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.checkbox-grade label{
+.checkbox-grade label {
     font-size: 18px;
     margin-left: 15px;
     user-select: none;
@@ -162,12 +174,12 @@ input[type="checkbox"] {
     position: absolute;
 }
 
-.outros-links a{
+.outros-links a {
     font-size: 18px;
     color: var(--cinza);
 }
 
-.outros-links a:hover{
+.outros-links a:hover {
     font-size: 18px;
     text-decoration: underline;
 }

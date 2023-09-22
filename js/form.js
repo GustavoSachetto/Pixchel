@@ -11,6 +11,36 @@ btn.addEventListener('click', function () {
     }
 });
 
-function input-error() {
-    const
+function inputError(input, span) {
+
+    function validandoEmail(email) {
+        var patern = /\S+@\S+\.\S+/;
+        return patern.test(email);
+    }
+
+    function error(erro) {
+        if (erro === true) {
+            input.classList.add('error');
+            span.classList.add('error');
+        } else {
+            input.classList.remove('error');
+            span.classList.remove('error');
+        }
+    }
+
+    if (input.type == 'email') {
+        if (validandoEmail(input.value) === false) {
+            error(true);
+        } else {
+            error(false);
+        }
+    }
+    
+    if (input.id == 'password') {
+        if (input.value.length < input.minLength) {
+            error(true);
+        } else {
+            error(false);
+        }
+    }    
 }
