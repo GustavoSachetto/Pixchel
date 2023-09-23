@@ -63,14 +63,14 @@ article form {
     position: absolute;
     width: 550px;
     padding: 50px;
-    top: 120px;
+    top: 130px;
     border-radius: 10px;
     box-shadow: var(--sombra-2);
     background-color: whitesmoke;
 }
 
 article .form-cadastro{
-    top: 90px;
+    top: 100px;
 }
 
 form>p {
