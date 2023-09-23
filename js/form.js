@@ -12,6 +12,8 @@ btn.addEventListener('click', function () {
     }
 });
 
+const prePassword = document.querySelector('#prePassword');
+
 function validateInput(input, span) {
     inputError(false, input, span);
 }
@@ -22,20 +24,16 @@ function exitInput(input, span) {
         return patern.test(email);
     }
 
-    function validatePassword(password) {
-        if (prePassword == "") {
-            var prePassword = password;
-        } else {
-            return 
-        }
-    }
-
-    var prePassword = "";
-
     if (input.type == 'email') {
         if (validateEmail(input.value) === false) {
             inputError(true, input, span);
         } 
+    }
+
+    if (prePassword) {
+        if ((input.id == 'password') && prePassword.value != input.value) { 
+            inputError(true, input, span);
+        }
     }
 
     if (input.id == 'password') {
@@ -44,11 +42,9 @@ function exitInput(input, span) {
         } 
     }
     
-    if ((input.id == 'prePassword') && (input.value < minLength)) {
+    if ((input.id == 'prePassword') && (input.value.length < input.minLength)) {
         inputError(true, input, span);
-    } else {
-        prePassword = input.value;
-    }
+    } 
 }
 
 function inputError(erro, input, span) {
