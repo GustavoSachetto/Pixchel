@@ -12,46 +12,11 @@ btn.addEventListener('click', function () {
     }
 });
 
-// function validandoInput(input, span) {
-
-//     function validandoEmail(email) {
-//         var patern = /\S+@\S+\.\S+/;
-//         return patern.test(email);
-//     }
- 
-//     function error(erro) {
-//         if (erro === true) {
-//             input.classList.add('error');
-//             span.classList.add('error');
-//         } else {
-//             input.classList.remove('error');
-//             span.classList.remove('error');
-//         }
-//     }
-
-//     if (input.type == 'email') {
-//         if (validandoEmail(input.value) === false) {
-//             error(true);
-//         } else {
-//             error(false);
-//         }
-//     }
-    
-//     if (input.id == 'password') {
-//         if (input.value.length < input.minLength) {
-//             error(true);
-//         } else {
-//             error(false);
-//         }
-//     }    
-// }
-
-function noInputError(input, span) {
+function validateInput(input, span) {
     inputError(false, input, span);
 }
 
-function validateInput(input, span) {
-
+function exitInput(input, span) {
     function validateEmail(email) {
         var patern = /\S+@\S+\.\S+/;
         return patern.test(email);
@@ -79,6 +44,3 @@ function inputError(erro, input, span) {
         span.classList.remove('error');
     }
 }
-
-
-
