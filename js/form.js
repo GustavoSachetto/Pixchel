@@ -28,7 +28,7 @@ function exitInput(input, span) {
         } 
     }
     
-    if (input.id == 'password') {
+    if (input.type == 'text') {
         if (input.value.length < input.minLength) {
             inputError(true, input, span);
         } 
