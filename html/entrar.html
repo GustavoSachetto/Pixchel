@@ -25,11 +25,11 @@
                     <p>Lembrou da gente? logue agora para não perder mais tempo. <strong>Bem-vindo de volta.</strong></p>
                     <fieldset>
                         <div class="email-grade">
-                            <input type="email" name="email" placeholder="Email" oninput="validateInput(this, errorEmail)" onblur="inputError()" required>
+                            <input type="email" name="email" placeholder="Email" oninput="noInputError(this, errorEmail)" onblur="validateInput(this, errorEmail)" required>
                             <span id="errorEmail"><strong>⚠️ Erro:</strong> Endereço de email inválido, deve conter um "@"</span>
                         </div>
                         <div class="password-grade">
-                            <input type="password" id="password" name="password" placeholder="Senha" oninput="validateInput(this, errorPassword)" onblur="inputError()" minlength="8" required>
+                            <input type="password" id="password" name="password" placeholder="Senha" oninput="noInputError(this, errorPassword)" onblur="validateInput(this, errorPassword)" minlength="8" required>
                             <button type="button" id="btn-mostra-senha" class="btn-mostra-senha"><img id="img-olho" src="../img/olho.svg" alt="Olho"></button>
                             <span id="errorPassword"><strong>⚠️ Erro:</strong> Senha inválida, deve conter no mínimo 8 caracteres</span>
                         </div>

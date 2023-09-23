@@ -46,34 +46,39 @@ btn.addEventListener('click', function () {
 //     }    
 // }
 
-function inputError() {
+function noInputError(input, span) {
+    inputError(false, input, span);
+}
 
-    var erro = false;
+function validateInput(input, span) {
 
-    inputError(erro);
+    function validateEmail(email) {
+        var patern = /\S+@\S+\.\S+/;
+        return patern.test(email);
+    }
 
-    function validateInput(erro) {
-
-        function validateEmail(email) {
-            var patern = /\S+@\S+\.\S+/;
-            return patern.test(email);
-        }
+    if (input.type == 'email') {
+        if (validateEmail(input.value) === false) {
+            inputError(true, input, span);
+        } 
+    }
     
-        if (input.type == 'email') {
-            if (validateEmail(input.value) === false) {
-                erro = true;
-            } 
-        }
-        
-        if (input.id == 'password') {
-            if (input.value.length < input.minLength) {
-                erro = true;
-            } 
-        }
-
-        if (erro === true) {
-            input.classList.add('error');
-            span.classList.add('error');
+    if (input.id == 'password') {
+        if (input.value.length < input.minLength) {
+            inputError(true, input, span);
         } 
     }
 }
+
+function inputError(erro, input, span) {
+    if (erro === true) {
+        input.classList.add('error');
+        span.classList.add('error');
+    } else {
+        input.classList.remove('error');
+        span.classList.remove('error');
+    }
+}
+
+
+
