@@ -63,14 +63,20 @@ article form {
     position: absolute;
     width: 550px;
     padding: 50px;
-    border-radius: 10px;
     top: 120px;
+    border-radius: 10px;
     box-shadow: var(--sombra-2);
     background-color: whitesmoke;
 }
 
+article .form-cadastro{
+    top: 90px;
+}
+
 form>p {
     margin-top: 20px;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 
@@ -100,10 +106,10 @@ span.error {
 
 input {
     margin: 10px 0;
-    padding: 15px 20px;
+    padding: 13px 16px;
     border: 2px solid gray;
     border-radius: 5px;
-    font: 300 22px var(--font-padrao);
+    font: 300 20px var(--font-padrao);
     color: gray;
     background: transparent;
 }
@@ -113,12 +119,12 @@ input {
     padding: 9px;
     border-radius: 0 5px 5px 0;
     background: gray;
-    margin: 10px 0 0 498px;
+    margin: 10px 0 0 503px;
     cursor: pointer;
 }
 
 .btn-mostra-senha img {
-    width: 36px;
+    width: 29px;
 }
 
 .checkbox-grade {
@@ -128,8 +134,8 @@ input {
 }
 
 input[type="checkbox"] {
-    width: 20px;
-    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
     cursor: pointer;
 }
 
@@ -158,7 +164,7 @@ input[type="checkbox"] {
     background-color: var(--verde);
     box-shadow: var(--sombra);
     cursor: pointer;
-    font: bold 26px var(--font-padrao);
+    font: bold 24px var(--font-padrao);
     transition: 300ms ease-in-out;
 }
 
@@ -175,7 +181,7 @@ input[type="checkbox"] {
 .separacao {
     text-align: center;
     color: gray;
-    margin-bottom: 27px;
+    margin-bottom: 18px;
 }
 
 .separacao::after {
