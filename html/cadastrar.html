@@ -29,11 +29,11 @@
                             <span id="errorEmail"><strong>⚠️ Erro:</strong> Endereço de email inválido, deve conter um "@email.com"</span>
                         </div>
                         <div class="password-grade">
-                            <input type="text" name="password" oninput="validateInput(this, errorPassword)" onblur="exitInput(this, errorPassword)" placeholder="Senha" minlength="8" required>
+                            <input type="text" id="prePassword" oninput="validateInput(this, errorPassword)" onblur="exitInput(this, errorPassword)" placeholder="Senha" minlength="8" required>
                             <span id="errorPassword"><strong>⚠️ Erro:</strong> Senha inválida, deve conter no mínimo 8 caracteres</span>
                         </div>
                         <div class="password-grade">
-                            <input type="password" id="password" name="confirmarSenha" oninput="validateInput(this, errorPassword)" onblur="exitInput(this, errorConfirmPassword)" placeholder="Confirmar senha" minlength="8" required>
+                            <input type="password" id="password" name="password" oninput="validateInput(this, errorConfirmPassword)" onblur="exitInput(this, errorConfirmPassword)" placeholder="Confirmar senha" required>
                             <button type="button" id="btn-mostra-senha" class="btn-mostra-senha"><img id="img-olho" src="../img/olho.svg" alt="Olho"></button>
                             <span id="errorConfirmPassword"><strong>⚠️ Erro:</strong> Senha inválida, senha não correspondente a anterior</span>
                         </div>

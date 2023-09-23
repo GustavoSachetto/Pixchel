@@ -22,16 +22,32 @@ function exitInput(input, span) {
         return patern.test(email);
     }
 
+    function validatePassword(password) {
+        if (prePassword == "") {
+            var prePassword = password;
+        } else {
+            return 
+        }
+    }
+
+    var prePassword = "";
+
     if (input.type == 'email') {
         if (validateEmail(input.value) === false) {
             inputError(true, input, span);
         } 
     }
-    
-    if (input.type == 'text') {
+
+    if (input.id == 'password') {
         if (input.value.length < input.minLength) {
             inputError(true, input, span);
         } 
+    }
+    
+    if ((input.id == 'prePassword') && (input.value < minLength)) {
+        inputError(true, input, span);
+    } else {
+        prePassword = input.value;
     }
 }
 
