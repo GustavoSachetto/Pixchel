@@ -140,8 +140,17 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-.btn-login {
-    color: white;
+.checkbox-grade label>a {
+    font-size: 18px;
+    color: var(--cinza);
+    text-decoration: underline;
+}
+
+.checkbox-grade label>a:hover {
+    color: darkviolet;
+}
+
+.btn-login, .btn-cadastrar {
     color: white;
     margin-top: 30px;
     padding: 16px 40px;
@@ -153,9 +162,14 @@ input[type="checkbox"] {
     transition: 300ms ease-in-out;
 }
 
-.btn-login:hover {
+.btn-login:hover, .btn-cadastrar:hover {
     transform: scale(1.05);
     box-shadow: 1px 5px 10px #0000001a;
+}
+
+.btn-cadastrar {
+    background-color: orange;
+    text-shadow: var(--sombra);
 }
 
 .separacao {
@@ -180,6 +194,5 @@ input[type="checkbox"] {
 }
 
 .outros-links a:hover {
-    font-size: 18px;
     text-decoration: underline;
 }

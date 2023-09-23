@@ -91,12 +91,12 @@ header.scroll a, header.scroll h1 {
     color: var(--cinza-escuro);
 }
 
-header.scroll .btn-cadastrar {
+header.scroll .btn-cadastrar-se {
     color: white;
     background-color: var(--cinza-escuro);
 
 }
-header.scroll .btn-cadastrar:hover {
+header.scroll .btn-cadastrar-se:hover {
     color: var(--cinza-escuro);
     background-color: transparent;
     border: 2px solid var(--cinza-escuro);
@@ -142,7 +142,7 @@ li > a {
     margin-left: 8px;
 }
 
-.btn-cadastrar {    
+.btn-cadastrar-se {    
     background-color: orange;
     border: 2px solid transparent;
     padding: 12px 30px;
@@ -150,7 +150,7 @@ li > a {
     transition: 500ms ease-in-out;
 }
 
-.btn-cadastrar:hover {
+.btn-cadastrar-se:hover {
     border: 2px solid white;
     background-color: var(--azul-escuro);
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pixchel - Entrar</title>
+        <title>Pixchel - Cadastrar-se</title>
 
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/form.css">
@@ -14,14 +14,14 @@
             <h1>Pixchel</h1>
             <nav>
                 <ul>
-                    <li><button onclick="history.go(-1)" class="btn-voltar">Continuar sem entrar</button></li>
+                    <li><button onclick="history.go(-1)" class="btn-voltar">Continuar sem cadastro</button></li>
                 </ul>
             </nav>
         </header>
         <main>
             <article class="formulario">
                 <form method="post" action="">
-                    <h2>Entrar</h2>
+                    <h2>Cadastrar</h2>
                     <p>Lembrou da gente? logue agora para não perder mais tempo. <strong>Bem-vindo de volta.</strong></p>
                     <fieldset>
                         <div class="email-grade">
@@ -34,14 +34,14 @@
                             <span id="errorPassword"><strong>⚠️ Erro:</strong> Senha inválida, deve conter no mínimo 8 caracteres</span>
                         </div>
                         <div class="checkbox-grade">
-                            <input type="checkbox" id="checkbox" name="checkbox">
-                            <label for="checkbox">Permaneça conectado</label>
+                            <input type="checkbox" id="checkbox" name="checkbox" required>
+                            <label for="checkbox">Concordo com <a href="#">os termos e condições</a> e <a href="#">a política de privacidade</a> da Pixchel.</label>
                         </div>
                     </fieldset>
-                    <button type="submit" class="btn-login">Fazer login na conta →</button>
+                    <button type="submit" class="btn-cadastrar">Criar sua conta →</button>
                     <p class="separacao">ou</p>
                     <div class="outros-links">
-                        <a href="cadastrar.html">Cadastrar-se gratuitamente</a><span> - </span><a href="#">Esqueceu a senha?</a>
+                        <a href="entrar.html">Já possui conta?</a><span> - </span><a href="#">Não possui email?</a>
                     </div>
                 </form>
             </article>
