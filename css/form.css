@@ -162,6 +162,7 @@ input[type="checkbox"] {
     padding: 16px 40px;
     border-radius: 10px;
     background-color: var(--verde);
+    text-shadow: var(--sombra);
     box-shadow: var(--sombra);
     cursor: pointer;
     font: bold 24px var(--font-padrao);
@@ -175,7 +176,6 @@ input[type="checkbox"] {
 
 .btn-cadastrar {
     background-color: orange;
-    text-shadow: var(--sombra);
 }
 
 .separacao {
