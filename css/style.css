@@ -401,6 +401,17 @@ section.produtos-grade {
 
 article.sobre {
     background-color: white;
+    height: 500px;
+}
+
+article.sobre h2{
+    text-align: center;
+    color: orange;
+    margin-bottom: 70px;
+}
+
+section.sobre-grade{
+    margin: 100px 0 100px 0;
 }
 
 footer {
