@@ -195,8 +195,9 @@ input[type="checkbox"] {
 }
 
 .outros-links a, .outros-links button {
-    cursor: pointer;
     font: normal 18px var(--font-padrao);
+    background-color: transparent;
+    cursor: pointer;
     color: var(--cinza);
 }
 
