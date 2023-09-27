@@ -194,11 +194,12 @@ input[type="checkbox"] {
     position: absolute;
 }
 
-.outros-links a {
-    font-size: 18px;
+.outros-links a, button {
+    cursor: pointer;
+    font: normal 18px var(--font-padrao);
     color: var(--cinza);
 }
 
-.outros-links a:hover {
+.outros-links a:hover, button:hover {
     text-decoration: underline;
 }
