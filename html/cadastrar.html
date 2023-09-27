@@ -27,7 +27,7 @@
                     <p>Bem-vindo! Logue agora para ter <strong>acesso ilimitado sobre o site.</strong></p>
                     <fieldset>
                         <div class="email-grade">
-                            <input type="email" name="email" placeholder="Email" oninput="validateInput(this, errorEmail)" onblur="exitInput(this, errorEmail)" required>
+                            <input type="email" name="usuario" id="usuario" placeholder="Email" oninput="validateInput(this, errorEmail)" onblur="exitInput(this, errorEmail)" required>
                             <span id="errorEmail"><strong>⚠️ Erro:</strong> Endereço de email inválido, deve conter um "@email.com"</span>
                         </div>
                         <div class="password-grade">
@@ -47,7 +47,7 @@
                     <button type="submit" class="btn-cadastrar">Criar sua conta →</button>
                     <p class="separacao">ou</p>
                     <div class="outros-links">
-                        <a href="entrar.html">Já possui conta?</a><span> - </span><button href="#">Não possui email?</button>
+                        <a href="entrar.html">Já possui conta?</a><span> - </span><button onclick="inputTroca(this, usuario)">Não possui email?</button>
                     </div>
                 </form>
             </article>

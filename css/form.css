@@ -116,10 +116,10 @@ input {
 
 .btn-mostra-senha {
     position: absolute;
-    padding: 8px;
+    padding: 9px;
     border-radius: 0 5px 5px 0;
     background: gray;
-    margin: 10px 0 0 504px;
+    margin: 10px 0 0 503px;
     cursor: pointer;
 }
 

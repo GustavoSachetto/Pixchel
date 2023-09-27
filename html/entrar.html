@@ -27,8 +27,8 @@
                     <p>Lembrou da gente? logue agora para não perder mais tempo. <strong>Bem-vindo de volta.</strong></p>
                     <fieldset>
                         <div class="email-grade">
-                            <input type="email" name="email" placeholder="Email" oninput="validateInput(this, errorEmail)" onblur="exitInput(this, errorEmail)" required>
-                            <span id="errorEmail"><strong>⚠️ Erro:</strong> Endereço de email inválido, deve conter um "@email.com"</span>
+                            <input type="text" name="usuario" id="usuario" placeholder="Email ou Telefone" oninput="validateInput(this, errorEmail)" onblur="exitInput(this, errorEmail)" required>
+                            <span id="errorEmail"><strong>⚠️ Erro:</strong> Endereço de email ou Telefone inválido</span>
                         </div>
                         <div class="password-grade">
                             <input type="password" id="password" name="password" oninput="validateInput(this, errorPassword)" onblur="exitInput(this, errorPassword)" placeholder="Senha" minlength="8" required>

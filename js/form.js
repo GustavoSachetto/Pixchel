@@ -56,3 +56,15 @@ function inputError(erro, input, span) {
         span.classList.remove('error');
     }
 }
+
+function inputTroca(button, input) {
+    if (input.type == 'email') {
+        input.type = 'tel';
+        input.placeholder = 'Telefone';
+        button.innerHTML = 'Não possui telefone?'
+    } else {
+        input.type = 'email';
+        input.placeholder = 'Email';
+        button.innerHTML = 'Não possui email?'
+    }
+}
