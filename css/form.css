@@ -116,10 +116,10 @@ input {
 
 .btn-mostra-senha {
     position: absolute;
-    padding: 9px;
+    padding: 8px;
     border-radius: 0 5px 5px 0;
     background: gray;
-    margin: 10px 0 0 503px;
+    margin: 10px 0 0 504px;
     cursor: pointer;
 }
 
@@ -194,12 +194,12 @@ input[type="checkbox"] {
     position: absolute;
 }
 
-.outros-links a, button {
+.outros-links a, .outros-links button {
     cursor: pointer;
     font: normal 18px var(--font-padrao);
     color: var(--cinza);
 }
 
-.outros-links a:hover, button:hover {
+.outros-links a:hover, .outros-links button:hover {
     text-decoration: underline;
 }
