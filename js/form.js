@@ -54,6 +54,12 @@ function exitInput(input, span) {
             inputError(true, input, span);
         } 
     }
+
+    if (input.id == 'usuario') {
+        if (input.value.length < input.minLength) {
+            inputError(true, input, span);
+        } 
+    }
     
     if ((input.id == 'prePassword') && (input.value.length < input.minLength)) {
         inputError(true, input, span);

@@ -27,7 +27,7 @@
                     <p>Lembrou da gente? logue agora para não perder mais tempo. <strong>Bem-vindo de volta.</strong></p>
                     <fieldset>
                         <div class="email-grade">
-                            <input type="text" name="usuario" id="usuario" placeholder="Email ou Telefone" oninput="validateInput(this, errorUsuario)" onblur="exitInput(this, errorUsuario)" required>
+                            <input type="text" name="usuario" id="usuario" placeholder="Email ou Telefone" minlength="8" oninput="validateInput(this, errorUsuario)" onblur="exitInput(this, errorUsuario)" required>
                             <span id="errorUsuario"><strong>⚠️ Erro:</strong> Endereço de email ou Telefone inválido</span>
                         </div>
                         <div class="password-grade">
