@@ -20,12 +20,25 @@ function validateInput(input, span) {
 
 function exitInput(input, span) {
     function validateEmail(email) {
-        var patern = /\S+@\S+\.\S+/;
+        let patern = /\S+@\S+\.\S+/;
         return patern.test(email);
+    }
+
+    function validateTel(tel) {
+        let patern = /[0-9]{2}([0-9]{8}|[0-9]{9})/;
+        return patern.test(tel)
     }
 
     if (input.type == 'email') {
         if (validateEmail(input.value) === false) {
+            span.innerHTML = '<strong>⚠️ Erro:</strong> Endereço de email inválido, deve conter um "@email.com"';
+            inputError(true, input, span);
+        } 
+    }
+
+    if (input.type == 'tel') {
+        if (validateTel(input.value) === false) {
+            span.innerHTML = '<strong>⚠️ Erro:</strong> Numero de telefone inválido, deve conter um "(ddd) 9+"';
             inputError(true, input, span);
         } 
     }
