@@ -156,7 +156,7 @@ input[type="checkbox"] {
     color: darkviolet;
 }
 
-.btn-login, .btn-cadastrar {
+.btn-login, .btn-cadastrar, .btn-recuperar {
     color: white;
     margin-top: 30px;
     padding: 16px 40px;
@@ -169,7 +169,7 @@ input[type="checkbox"] {
     transition: 300ms ease-in-out;
 }
 
-.btn-login:hover, .btn-cadastrar:hover {
+.btn-login:hover, .btn-cadastrar:hover, .btn-recuperar:hover {
     transform: scale(1.05);
     box-shadow: 1px 5px 10px #0000001a;
 }

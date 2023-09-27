@@ -21,25 +21,26 @@
                 </ul>
             </nav>
         </header>
-        <article class="formulario">
-            <form method="post" action="">
-                <h2>Recuperar</h2>
-                <p>
-                    Esqueceu sua senha? <strong>Não tem problema.</strong> Coloque seu endereço email ou numero de telefone abaixo e receba já um <strong>link para criar uma nova senha.</strong>
-                </p>
-                <fieldset>
-                    <div class="usuario-grade">
-                        <input type="text" name="usuario" id="usuario" placeholder="Email ou Telefone" minlength="8" oninput="validateInput(this, errorUsuario)" onblur="exitInput(this, errorUsuario)" required>
-                        <span id="errorUsuario"><strong>⚠️ Erro:</strong> Endereço de email ou Telefone inválido</span>
+        <main>
+            <article class="formulario">
+                <form method="post" action="">
+                    <h2>Recuperar</h2>
+                    <p>
+                        Esqueceu sua senha? <strong>Não tem problema.</strong> Coloque seu endereço email ou numero de telefone abaixo e receba já um <strong>link para criar uma nova senha.</strong>
+                    </p>
+                    <fieldset>
+                        <div class="usuario-grade">
+                            <input type="text" name="usuario" id="usuario" placeholder="Email ou Telefone" minlength="8" oninput="validateInput(this, errorUsuario)" onblur="exitInput(this, errorUsuario)" required>
+                            <span id="errorUsuario"><strong>⚠️ Erro:</strong> Endereço de email ou Telefone inválido</span>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn-recuperar">Enviar link de recuperação →</button>
+                    <p class="separacao">ou</p>
+                    <div class="outros-links">
+                        <a href="entrar.html">← Entrar</a>
                     </div>
-                </fieldset>
-                <button type="submit" class="btn-login">Enviar link de recuperação →</button>
-                <p class="separacao">ou</p>
-                <div class="outros-links">
-                    <a href="entrar.html">← Entrar</a>
-                </div>
-            </form>
-        </article>
-    </main>
+                </form>
+            </article>
+        </main>
     </body>
 </html>
