@@ -407,7 +407,7 @@ article.sobre {
 article.sobre h2 {
     text-align: center;
     color: orange;
-    margin-bottom: 50px;
+    margin: 40px 0 50px 0;
 }
 
 section.sobre-grade {
@@ -435,7 +435,7 @@ section.cliente-grade {
     }
 
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-13px);
     }
 }
 
