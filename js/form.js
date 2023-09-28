@@ -38,7 +38,7 @@ function exitInput(input, span) {
 
     if (input.type == 'tel') {
         if (validateTel(input.value) === false) {
-            span.innerHTML = '<strong>⚠️ Erro:</strong> Numero de telefone inválido, deve conter um "(ddd) 9+"';
+            span.innerHTML = '<strong>⚠️ Erro:</strong> Numero de telefone inválido, deve conter um "(ddd) 8+"';
             inputError(true, input, span);
         } 
     }
