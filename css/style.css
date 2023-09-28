@@ -76,10 +76,15 @@ header {
     z-index: 1000;
 }
 
+header a{
+    text-decoration: none;
+}
+
 h1 {
     font: bold 34px var(--font-padrao);
     cursor: default;
     color: white;
+    cursor: pointer;
 }
 
 header.scroll {
@@ -113,7 +118,6 @@ li {
 
 li>a {
     font: bold 20px var(--font-padrao);
-    text-decoration: none;
     white-space: nowrap;
     position: relative;
     color: white;
