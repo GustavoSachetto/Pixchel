@@ -76,11 +76,11 @@ header {
     z-index: 1000;
 }
 
-header a{
+header a {
     text-decoration: none;
 }
 
-h1 a{
+h1 a {
     font: bold 34px var(--font-padrao);
     cursor: default;
     color: white;
@@ -108,15 +108,43 @@ header.scroll .btn-cadastrar-se:hover {
     border: 2px solid var(--cinza-escuro);
 }
 
-ul {
+.menu-responsivo {
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.menu-responsivo div {
+    content: "";
+    width: 40px;
+    height: 3px;
+    margin: 10px;
+    background-color: orange;
+    transition: 500ms ease-in-out;
+}
+
+.menu-responsivo.ativo .linha1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menu-responsivo.ativo .linha2 {
+    width: 0;
+    transform: translateX(20px);
+}
+
+.menu-responsivo.ativo .linha3 {
+    transform: rotate(45deg) translate(-10px, -10px);
+}
+
+nav ul {
     list-style: none;
 }
 
-li {
+nav li {
     padding: 12px 18px;
 }
 
-li>a {
+nav li>a {
     font: bold 20px var(--font-padrao);
     white-space: nowrap;
     position: relative;
@@ -125,12 +153,12 @@ li>a {
 
 .menu a::after {
     content: " ";
-    width: 0%;
+    width: 0;
     height: 2px;
-    background-color: orange;
     position: absolute;
     top: 25px;
     left: 0;
+    background-color: orange;
     transition: 500ms ease-in-out;
 }
 
@@ -138,7 +166,7 @@ li>a {
     width: 100%;
 }
 
-.menu-cadastro {
+.btn-entrar {
     margin-left: 180px;
 }
 
@@ -504,4 +532,55 @@ footer a {
 
 footer a:hover {
     border-bottom: 1px solid white;
+}
+
+@media (max-width:1320px) {
+
+    .menu-responsivo {
+        display: block;
+    }
+
+    header.scroll li a {
+        color: white;
+    }
+    
+    header.scroll .btn-cadastrar-se {
+        color: white;
+        background-color: orange;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        background-color: var(--cinza-escuro);
+        transition: 1s ease;
+    }
+    
+    nav.ativo {
+        right: 0;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 30px;
+    }
+
+    nav li {
+        justify-content: space-around;
+    }
+    
+    .btn-entrar {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1200px) {
 }
