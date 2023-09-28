@@ -10,3 +10,8 @@ menuResponsivo.addEventListener('click', () => {
     menuResponsivo.classList.toggle('ativo');
     nav.classList.toggle('ativo');
 });
+
+function clickLink() {
+    menuResponsivo.classList.remove('ativo');
+    nav.classList.remove('ativo');   
+}

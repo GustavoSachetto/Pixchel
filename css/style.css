@@ -159,7 +159,7 @@ nav li>a {
     top: 25px;
     left: 0;
     background-color: orange;
-    transition: 500ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 .menu a:hover::after {
@@ -186,6 +186,10 @@ nav li>a {
 .btn-cadastrar-se:hover {
     border: 2px solid white;
     background-color: var(--azul-escuro);
+}
+
+.btn-cadastrar-se:hover::after {
+    display: none;
 }
 
 main {
@@ -569,7 +573,7 @@ footer a:hover {
         display: flex;
         flex-direction: column;
         height: 100vh;
-        margin: 30px;
+        margin: 50px;
     }
 
     nav li {
@@ -578,6 +582,10 @@ footer a:hover {
     
     .btn-entrar {
         margin: 0;
+    }
+
+    .btn-cadastrar-se:hover {
+        background-color: var(--cinza-escuro);
     }
 
 }
