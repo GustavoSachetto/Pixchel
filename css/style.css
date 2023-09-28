@@ -538,7 +538,61 @@ footer a:hover {
     border-bottom: 1px solid white;
 }
 
-@media (max-width:1320px) {
+@media (max-width: 1330px) {
+
+    h2 {
+        font-size: 58px;
+    }
+
+    .pixel-grade p {
+        font-size: 22px;
+    }
+
+    .pixel-grade .btn-detalhes {
+        font-size: 26px;
+    }
+
+    .img-rede {
+        width: 29px;
+    }
+
+    .card, .card-navegar {
+        width: 180px;
+        height: 195px;
+    }
+
+    .img-card {
+        width: 170px;
+    }
+    
+    .btn-entrar {
+        margin-left: 50px;
+    }
+
+    section.confianca-grade h2 {
+        font-size: 47px;
+    }
+
+    .confianca-grade h3 {
+        font-size: 32px;
+    }
+
+    .confianca-grade p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    aside.desenhando {
+        margin: 140px 0 0 50px;
+    }
+
+    section.sobre-grade {
+        font-size: 22px;
+    }
+    
+}
+
+@media (max-width:1200px) {
 
     .menu-responsivo {
         display: block;
