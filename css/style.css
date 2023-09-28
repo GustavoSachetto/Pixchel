@@ -544,6 +544,10 @@ footer a:hover {
         font-size: 58px;
     }
 
+    .btn-entrar {
+        margin-left: 50px;
+    }
+
     .pixel-grade p {
         font-size: 22px;
     }
@@ -556,17 +560,22 @@ footer a:hover {
         width: 29px;
     }
 
+    .img-card {
+        width: 170px;
+    }
+
     .card, .card-navegar {
         width: 180px;
         height: 195px;
     }
 
-    .img-card {
-        width: 170px;
+    .card p {
+        padding: 9px 10px;
+        font-size: 17px;
     }
-    
-    .btn-entrar {
-        margin-left: 50px;
+
+    .card-navegar h3 {
+        font-size: 22px;
     }
 
     section.confianca-grade h2 {
