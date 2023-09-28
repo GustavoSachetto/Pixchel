@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --instagram: #e43c77;
+    --instagram: #d4386f;
     --facebook: #3B5999;
     --linkedin: #55ACEE;
 }
@@ -23,7 +23,9 @@ h1 {
     color: white;
 }
 
-a {
+button {
+    cursor: pointer;
+    border: none;
     font: normal 25px 'Josefin Sans', Arial;
     padding: 12px 30px;
     border-radius: 20px;
@@ -32,7 +34,7 @@ a {
     transition: 300ms ease-in-out;
 }
 
-a:hover {
+button:hover {
     color: white;
     background-color: transparent;
     transform: scale(1.5);
