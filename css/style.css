@@ -269,6 +269,10 @@ aside.card-grades {
     margin-bottom: 100px;
 }
 
+p {
+    text-indent: 25px;
+}
+
 .card, .card-navegar {
     margin: 15px;
     padding: 50px 10px;
@@ -598,10 +602,10 @@ footer a:hover {
     section.sobre-grade {
         font-size: 22px;
     }
-    
+
 }
 
-@media (max-width:1200px) {
+@media (max-width:1170px) {
 
     .menu-responsivo {
         display: block;
@@ -610,12 +614,12 @@ footer a:hover {
     header.scroll li a {
         color: white;
     }
-    
+
     header.scroll .btn-cadastrar-se {
         color: white;
         background-color: orange;
     }
-    
+
     nav {
         display: flex;
         flex-direction: column;
@@ -627,11 +631,11 @@ footer a:hover {
         background-color: var(--cinza-escuro);
         transition: 1s ease;
     }
-    
+
     nav.ativo {
         right: 0;
     }
-    
+
     nav ul {
         display: flex;
         flex-direction: column;
@@ -642,13 +646,35 @@ footer a:hover {
     nav li {
         justify-content: space-around;
     }
-    
+
     .btn-entrar {
         margin: 0;
     }
 
     .btn-cadastrar-se:hover {
         background-color: var(--cinza-escuro);
+    }
+
+    article.exibicao {
+        flex-direction: column;
+    }
+
+    section.pixel-grade {
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .pixel-grade .btn-detalhes {
+        margin: 50px 0 25px 0;
+    }
+
+    .card-grades {
+        margin: 70px 0 70px 0;
+    }
+
+    aside.desenhando {
+        margin: 200px 0 0 50px;
     }
 
 }
