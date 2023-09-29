@@ -678,3 +678,25 @@ footer a:hover {
     }
 
 }
+
+@media (max-width:900px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .confianca-grade h2{
+        text-align: center;
+    }
+
+    aside.desenhando {
+        display: none;
+    }
+
+    .card-produtos-grade {
+        margin: 0 10% 0 10%;
+    }
+
+    .card-produto {
+        margin: 30px;
+    }
+}
