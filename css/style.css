@@ -699,4 +699,24 @@ footer a:hover {
     .card-produto {
         margin: 30px;
     }
+
+    .card-cliente {
+        width: 500px;
+    }
+
+    .card-cliente h3{
+        font-size: 23px;
+    }
+
+    .card-cliente p {
+        font-size: 19px;
+    }
+
+    .cliente-texto {
+        margin-left: 100px;
+    }
+    
+    .img-cliente {
+        margin: -180px 0 0 -70px;
+    }
 }
