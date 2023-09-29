@@ -269,10 +269,6 @@ aside.card-grades {
     margin-bottom: 100px;
 }
 
-p {
-    text-indent: 25px;
-}
-
 .card, .card-navegar {
     margin: 15px;
     padding: 50px 10px;
@@ -326,6 +322,10 @@ article.confianca {
     flex-direction: row;
     padding: 130px 6% 130px 6%;
     background-color: whitesmoke;
+}
+
+section>p {
+    text-indent: 25px;
 }
 
 section.confianca-grade h2 {
