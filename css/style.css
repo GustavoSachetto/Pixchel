@@ -629,7 +629,7 @@ footer a:hover {
         height: 100vh;
         position: absolute;
         background-color: var(--cinza-escuro);
-        transition: 1s ease;
+        transition: 700ms ease;
     }
 
     nav.ativo {
@@ -639,8 +639,8 @@ footer a:hover {
     nav ul {
         display: flex;
         flex-direction: column;
-        height: 100vh;
         margin: 50px;
+        height: 100vh;
     }
 
     nav li {
