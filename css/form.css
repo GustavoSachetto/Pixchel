@@ -204,3 +204,68 @@ input[type="checkbox"] {
 .outros-links a:hover, .outros-links button:hover {
     text-decoration: underline;
 }
+
+@media (max-width:650px) {
+    article form {
+        width: 350px;
+    }
+
+    .btn-mostra-senha {
+        margin: 10px 0 0 303px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    article form {
+        width: 280px;
+    }
+
+    .btn-voltar {
+        font: bold 16px var(--font-padrao);
+        padding: 8px 18px;
+    }
+
+    article h2 {
+        font-size: 45px;
+    }
+
+    form p {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 10px 13px;
+    }
+
+    fieldset span {
+        font-size: 16px;
+    }    
+
+    .btn-mostra-senha {
+        padding: 7px;
+        margin: 10px 0 0 240px;
+    }
+    
+    .btn-mostra-senha img {
+        width: 26px;
+    }
+
+    .checkbox-grade label, .checkbox-grade label>a {
+        font-size: 16px;
+    }
+
+    .btn-login, .btn-cadastrar, .btn-recuperar {
+        padding: 10px 26px;
+        font-size: 20px;
+    }
+
+    .separacao::after {
+        width: 74%;
+    }
+
+    .outros-links a, .outros-links button {
+        font-size: 16px;
+    }
+}
