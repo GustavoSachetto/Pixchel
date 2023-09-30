@@ -720,3 +720,14 @@ footer a:hover {
         margin: -180px 0 0 -70px;
     }
 }
+
+@media (max-width:600px) {
+
+    section.sobre-grade p{
+        padding: 30px;
+    }
+
+    .card-cliente {
+        display: none;
+    }
+}
