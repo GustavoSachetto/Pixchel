@@ -1,16 +1,18 @@
 const btn = document.querySelector('#btn-mostra-senha');
 
-btn.addEventListener('click', function () {
-    const input = document.querySelector('#password');
-    const img = document.querySelector('#img-olho');
-    if(input.getAttribute('type') == 'password') {
-        input.setAttribute('type', 'text');
-        img.src = "../img/olho-aberto.svg";
-    } else {
-        input.setAttribute('type', 'password');
-        img.src = "../img/olho.svg";
-    }
-});
+if (btn) {
+    btn.addEventListener('click', function () {
+        const input = document.querySelector('#password');
+        const img = document.querySelector('#img-olho');
+        if(input.getAttribute('type') == 'password') {
+            input.setAttribute('type', 'text');
+            img.src = "../img/olho-aberto.svg";
+        } else {
+            input.setAttribute('type', 'password');
+            img.src = "../img/olho.svg";
+        }
+    });
+}
 
 const prePassword = document.querySelector('#prePassword');
 
@@ -27,6 +29,12 @@ function exitInput(input, span) {
     function validateTel(tel) {
         let patern = /[0-9]{2}([0-9]{8}|[0-9]{9})/;
         return patern.test(tel)
+    }
+
+    if (input.type == 'text') {
+        if (input.value.length < input.minLength) {
+            inputError(true, input, span);
+        } 
     }
 
     if (input.type == 'email') {

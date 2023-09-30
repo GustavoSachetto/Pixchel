@@ -218,12 +218,13 @@ input[type="checkbox"] {
 @media (max-width: 470px) {
 
     article form {
-        width: 280px;
+        width: 290px;
+        padding: 35px;
     }
 
     .btn-voltar {
         font: bold 16px var(--font-padrao);
-        padding: 8px 18px;
+        padding: 8px 16px;
     }
 
     article h2 {
@@ -245,7 +246,7 @@ input[type="checkbox"] {
 
     .btn-mostra-senha {
         padding: 7px;
-        margin: 10px 0 0 240px;
+        margin: 10px 0 0 250px;
     }
     
     .btn-mostra-senha img {
@@ -262,10 +263,23 @@ input[type="checkbox"] {
     }
 
     .separacao::after {
-        width: 74%;
+        bottom: 102px;
+        left: 40px;
+        width: 78%;
+    }
+
+    .outros-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .outros-links span {
+        display: none;
     }
 
     .outros-links a, .outros-links button {
         font-size: 16px;
+        margin-top: 15px;
     }
 }
