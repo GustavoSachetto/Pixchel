@@ -2,3 +2,6 @@
 
 # Pixchel
  
+Esse projeto foi baseado na ideia de geral um site completamente responsivo. 
+
+__Link:__ [https://gustavosachetto.000webhostapp.com/](https://gustavosachetto.github.io/Pixchel/)
