@@ -730,4 +730,28 @@ footer a:hover {
     .card-cliente {
         display: none;
     }
+
+    .block-redes {
+        margin: 30px;
+    }
+
+    .img-rede {
+        width: 45px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 470px) {
+    h2, section.confianca-grade h2, section.produtos-grade h2 {
+        font-size: 38px;
+    }
+
+    .pixel-grade .btn-detalhes {
+        font-size: 24px;
+        padding: 12px 25px; 
+    }
+
+    p, section.pixel-grade p, section.confianca-grade p {
+        font-size: 19px;
+    }
 }
