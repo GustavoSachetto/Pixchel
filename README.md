@@ -2,6 +2,6 @@
 
 # Pixchel
  
-Esse projeto foi baseado na ideia de geral um site completamente responsivo. 
+Esse projeto foi baseado na ideia de geral um site completamente responsivo. Utilizando HTML, CSS e Javascript.
 
 __Link:__ https://gustavosachetto.github.io/Pixchel/
