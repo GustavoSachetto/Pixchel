@@ -685,7 +685,7 @@ footer a:hover {
         width: 0px;
     }
 
-    .confianca-grade h2{
+    .confianca-grade h2 {
         text-align: center;
     }
 
@@ -705,7 +705,7 @@ footer a:hover {
         width: 500px;
     }
 
-    .card-cliente h3{
+    .card-cliente h3 {
         font-size: 23px;
     }
 
@@ -716,7 +716,7 @@ footer a:hover {
     .cliente-texto {
         margin-left: 100px;
     }
-    
+
     .img-cliente {
         margin: -180px 0 0 -70px;
     }
@@ -724,7 +724,7 @@ footer a:hover {
 
 @media (max-width:600px) {
 
-    section.sobre-grade p{
+    section.sobre-grade p {
         padding: 30px;
     }
 
@@ -750,14 +750,14 @@ footer a:hover {
 
     .pixel-grade .btn-detalhes {
         font-size: 22px;
-        padding: 12px 25px; 
+        padding: 12px 25px;
     }
 
-    section .card-produtos-grade{
+    section .card-produtos-grade {
         margin: 0 10px 0 10px;
     }
 
-    .card-produto  {
+    .card-produto {
         width: 215px;
         height: 350px;
     }
