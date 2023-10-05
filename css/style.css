@@ -211,6 +211,10 @@ article a {
     text-decoration: none;
 }
 
+section>p {
+    text-indent: 25px;
+}
+
 article.exibicao {
     display: flex;
     flex-direction: row;
@@ -228,6 +232,7 @@ section.pixel-grade {
     color: white;
     margin-top: 30px;
     font-size: 26px;
+    text-indent: 0;
 }
 
 .pixel-grade .btn-detalhes {
@@ -322,10 +327,6 @@ article.confianca {
     flex-direction: row;
     padding: 130px 6% 130px 6%;
     background-color: whitesmoke;
-}
-
-section>p {
-    text-indent: 25px;
 }
 
 section.confianca-grade h2 {
@@ -743,15 +744,24 @@ footer a:hover {
 
 @media (max-width: 470px) {
     h2, section.confianca-grade h2, section.produtos-grade h2 {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     .pixel-grade .btn-detalhes {
-        font-size: 24px;
+        font-size: 22px;
         padding: 12px 25px; 
     }
 
     p, section.pixel-grade p, section.confianca-grade p {
         font-size: 19px;
     }
+
+    .card-produto p {
+        margin: 13px;
+    }
+
+    .card-produto img {
+        width: 124px;
+    }
+
 }
