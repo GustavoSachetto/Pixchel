@@ -744,12 +744,6 @@ footer a:hover {
 
 @media (max-width: 470px) {
 
-    section .card-produtos-grade{
-        .card-produtos-grade {
-            margin: 0 20px 0 20px;
-        }
-    }
-
     h2, section.confianca-grade h2, section.produtos-grade h2 {
         font-size: 35px;
     }
@@ -759,8 +753,25 @@ footer a:hover {
         padding: 12px 25px; 
     }
 
+    section .card-produtos-grade{
+        margin: 0 10px 0 10px;
+    }
+
+    .card-produto  {
+        width: 235px;
+        height: 370px;
+    }
+
+    .card-produto p {
+        font-size: 16px;
+    }
+
+    .card-produto img {
+        width: 139px;
+    }
+
     p, section.pixel-grade p, section.confianca-grade p {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .card-produto p {
