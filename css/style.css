@@ -743,6 +743,13 @@ footer a:hover {
 }
 
 @media (max-width: 470px) {
+
+    section .card-produtos-grade{
+        .card-produtos-grade {
+            margin: 0 20px 0 20px;
+        }
+    }
+
     h2, section.confianca-grade h2, section.produtos-grade h2 {
         font-size: 35px;
     }
@@ -759,4 +766,5 @@ footer a:hover {
     .card-produto p {
         margin: 13px;
     }
+
 }
