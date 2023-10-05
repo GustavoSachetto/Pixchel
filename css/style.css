@@ -754,12 +754,12 @@ footer a:hover {
     }
 
     section .card-produtos-grade{
-        margin: 0 7px 0 7px;
+        margin: 0 10px 0 10px;
     }
 
     .card-produto  {
-        width: 235px;
-        height: 370px;
+        width: 215px;
+        height: 350px;
     }
 
     .card-produto p {
@@ -767,7 +767,7 @@ footer a:hover {
     }
 
     .card-produto img {
-        width: 139px;
+        width: 119px;
     }
 
     p, section.pixel-grade p, section.confianca-grade p {
