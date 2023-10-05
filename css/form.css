@@ -29,6 +29,11 @@ body {
     background: whitesmoke;
 }
 
+header {
+    position: relative;
+    background: var(--gradiente-fundo);
+}
+
 .btn-voltar {
     font: bold 20px var(--font-padrao);
     color: white;
@@ -217,18 +222,26 @@ input[type="checkbox"] {
 
 @media (max-width: 470px) {
 
-    article form {
-        width: 290px;
-        padding: 35px;
+    article form, article .form-cadastro {
+        top: auto;
+        margin-top: 10px;
+        width: 300px;
+        padding: 25px;
     }
 
+
+
     .btn-voltar {
-        font: bold 16px var(--font-padrao);
-        padding: 8px 16px;
+        font: bold 15px var(--font-padrao);
+        padding: 8px 8px;
     }
 
     article h2 {
         font-size: 45px;
+    }
+
+    article p {
+        margin-top: 5px;
     }
 
     form p {
@@ -246,7 +259,7 @@ input[type="checkbox"] {
 
     .btn-mostra-senha {
         padding: 7px;
-        margin: 10px 0 0 250px;
+        margin: 10px 0 0 260px;
     }
     
     .btn-mostra-senha img {
