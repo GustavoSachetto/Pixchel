@@ -1,7 +1,6 @@
-# Pixchel
-![Pixchel](https://github.com/user-attachments/assets/a20d572f-e199-4177-a83e-99ab1035d13d)
+![image](https://github.com/user-attachments/assets/4a1dd0fb-7bdb-4ed8-8736-325a905a5838)
 
-## Sobre
+# Pixchel
 Pixchel foi um projeto baseado na ideia de gerar um site completamente responsivo, onde o __principal foco está nos formularios de cadastro, login e recuperação de conta.__ Foi utilizado HTML, CSS e Javascript.
 
 * __Link de acesso:__ https://gustavosachetto.github.io/Pixchel/
